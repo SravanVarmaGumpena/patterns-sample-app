@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="State.State">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="account" Hidden="true" />
+      <Property Name="Account" Hidden="true" />
+      <Field Name="balance" Hidden="true" />
+      <Property Name="Balance" Hidden="true" />
+      <Field Name="interest" Hidden="true" />
+      <Field Name="lowerLimit" Hidden="true" />
+      <Field Name="upperLimit" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAARAAAAAAAgAAAAMAAAgAAAAQAAAQAAAAEI=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State.OverdrawnState">
+    <Position X="6.5" Y="3" Width="1.75" />
+    <Members>
+      <Field Name="_serviceFee" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAQAAAAAAAAAEAAAAAAAAQAAEAAAAAAI=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State.StandardState">
+    <Position X="0.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAQAAAAAAAAAEAAAAAAAAQAAAAAAAAAI=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State.PremiumState">
+    <Position X="3.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAQAAAAAAAAAEAAAAAAAAQAAAAAAAAAI=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State.Account">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="_owner" Hidden="true" />
+      <Field Name="_state" Hidden="true" />
+      <Property Name="Balance" Hidden="true" />
+      <Property Name="State" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAgACAAEAAAAAAAAQAAABAAAAAI=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
